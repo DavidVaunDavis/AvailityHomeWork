@@ -22,7 +22,7 @@ public class StartHere {
                 System.out.println(anEnrolee.DisplayName());
             }
             for(String aKey : newFileHash.keySet()){
-                CompanyClassFile aCompanyClassFile = new CompanyClassFile(newFileHash.get(aKey)) ;
+                new CompanyClassFile(newFileHash.get(aKey)) ;
             }
 
         } catch (FileNotFoundException e) {

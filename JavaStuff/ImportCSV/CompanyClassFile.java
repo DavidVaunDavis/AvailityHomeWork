@@ -55,13 +55,6 @@ public class CompanyClassFile {
         for (Enrollee anEnrollee : _enrollees) {
             idSet.add(anEnrollee._userID);
         }
-
-
         return idSet;
-
     }
-
-
-
-
 }
