@@ -10,7 +10,7 @@ public class StartHere {
 
         HashMap<String, ArrayList<Enrollee>> newFileHash = new HashMap<String, ArrayList<Enrollee>>();
         try {
-            File afile = new File("src/ImportCSV/CSVTest3.csv");
+            File afile = new File("JavaStuff/ImportCSV/CSVTest3.csv");
             BufferedReader br = new BufferedReader(new FileReader(afile));
             for(String i : br.lines().toList()) {
                 String[] columnList = i.split(",");

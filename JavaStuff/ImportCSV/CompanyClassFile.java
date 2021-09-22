@@ -19,7 +19,7 @@ public class CompanyClassFile {
     public void createFile() {
         FileWriter aWriter = null;
         try {
-            aWriter = new FileWriter("src/ImportCSV/output/" + _company + ".csv");
+            aWriter = new FileWriter("JavaStuff/ImportCSV/output/" + _company + ".csv");
 
             for(Enrollee anEnrollee : _enrollees){
                 aWriter.write(anEnrollee.DisplayName());
